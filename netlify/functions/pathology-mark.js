@@ -4,7 +4,7 @@ const SUPABASE_PUBLISHABLE_KEY =
   process.env.SUPABASE_PUBLISHABLE_KEY;
 const GEMINI_API_KEY = process.env.GEMINI_API_KEY;
 
-const GEMINI_MODEL = "gemini-2.5-flash";
+const GEMINI_MODEL = "gemini-3.8-flash";
 
 function reply(statusCode, data) {
   return {
